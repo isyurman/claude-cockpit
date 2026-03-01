@@ -4,6 +4,13 @@ All notable changes to Claude Cockpit will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.4.4] - 2026-03-02
+
+### Improved
+
+- **Lightweight watcher** — File change events no longer re-parse session files. Only new files get full-parsed; known files get a mtime-only update. Full re-parse deferred to next startup
+- **Debounce increased to 5s** — Reduces stat() overhead during active Claude sessions
+
 ## [0.4.3] - 2026-03-02
 
 ### Fixed
