@@ -4,6 +4,13 @@ All notable changes to Claude Cockpit will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.4.2] - 2026-03-02
+
+### Fixed
+
+- **Critical: infinite re-indexing loop** — Sessions without `cwd` were re-parsed every indexing cycle (~60 files every 2-5 seconds), causing memory to grow to 8GB+. Removed `hasMissingCwd` check from re-index conditions
+- **Concurrent indexing races** — Added lock to prevent overlapping `indexAll()` runs when watcher fires during an active index
+
 ## [0.4.1] - 2026-03-02
 
 ### Fixed
