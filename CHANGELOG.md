@@ -4,6 +4,17 @@ All notable changes to Claude Cockpit will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.4.0] - 2026-03-02
+
+### Added
+
+- **Logging infrastructure** — OutputChannel logger ("Claude Cockpit") with timestamped info/warn/error. Logs activation, indexing stats, preview parsing, and insight generation
+
+### Fixed
+
+- **Preview scroll** — Entire preview body (actions, tags, cost breakdown, notes, insights, messages) now scrolls as one unit instead of cutting off cost breakdown
+- **Memory usage** — Preview parser uses streaming readline instead of loading entire JSONL file into memory, capped at 50 sampled messages
+
 ## [0.3.1] - 2026-03-01
 
 ### Added
