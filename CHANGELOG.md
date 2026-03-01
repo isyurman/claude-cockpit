@@ -4,6 +4,14 @@ All notable changes to Claude Cockpit will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.2.4] - 2026-03-01
+
+### Improved
+
+- **2x Retina screenshots** — All marketing screenshots recaptured at 2x DPI for crisp display on HiDPI screens
+- **Automated screenshot pipeline** — Playwright-based capture script for reproducible marketing assets
+- **Deploy scripts** — One-command release workflow for packaging and deploying to both repos
+
 ## [0.2.3] - 2026-03-01
 
 ### Added
