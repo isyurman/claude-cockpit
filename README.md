@@ -79,13 +79,6 @@ The metrics dashboard tracks spending by model with rates shown inline, so you c
 
 <img src="media/screenshots/03-metrics-dashboard.png" width="800" alt="Metrics dashboard with per-model cost breakdown and inline rates">
 
-### Timeline View
-
-See when you actually use Claude Code.
-The timeline plots your session activity over days and weeks so you can spot patterns in your AI-assisted workflow.
-
-<img src="media/screenshots/06-timeline-view.png" width="800" alt="Timeline view showing session activity distribution">
-
 ### Also included
 
 - **Pin & Tag** — Pin important sessions to the top, add custom tags for instant retrieval
