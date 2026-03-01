@@ -38,20 +38,19 @@ Sessions with generated insights show an **AI** badge on their card for quick id
 
 Spotted the session you need? Resume it without leaving VS Code, or launch it directly in your preferred terminal.
 Claude Cockpit supports eight terminals out of the box, each with both standard resume and auto-approve modes.
-iTerm2, WezTerm, and Kitty support tab-based resume for a clean workflow.
 
 <img src="media/screenshots/02-resume-terminals.png" width="800" alt="Context menu showing resume options across 7+ terminals">
 
-| Terminal         | Resume | Auto-approve | Tabs |
-|------------------|:------:|:------------:|:----:|
-| VS Code terminal | ✓      | ✓            |      |
-| iTerm2           | ✓      | ✓            | ✓    |
-| WezTerm          | ✓      | ✓            | ✓    |
-| Kitty            | ✓      | ✓            | ✓    |
-| Ghostty          | ✓      | ✓            |      |
-| Terminal.app     | ✓      | ✓            |      |
-| Alacritty        | ✓      | ✓            |      |
-| Warp             | ✓      | ✓            |      |
+| Terminal         | Resume | Auto-approve |
+|------------------|:------:|:------------:|
+| VS Code terminal | ✓      | ✓            |
+| iTerm2           | ✓      | ✓            |
+| WezTerm          | ✓      | ✓            |
+| Kitty            | ✓      | ✓            |
+| Ghostty          | ✓      | ✓            |
+| Terminal.app     | ✓      | ✓            |
+| Alacritty        | ✓      | ✓            |
+| Warp             | ✓      | ✓            |
 
 ### Prompt Library & AI Refinement
 

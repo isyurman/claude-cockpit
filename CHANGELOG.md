@@ -4,26 +4,17 @@ All notable changes to Claude Cockpit will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
-## [0.4.8] - 2026-03-02
-
-### Improved
-
-- **Full feature showcase** — README and Marketplace listing now highlight every major capability: AI Insights, Prompt Refinement, 8-terminal support, cost tracking, and more
-- **Sharper hero GIF** — Smoother animations with better color reproduction
-
-## [0.4.7] - 2026-03-02
-
-### Improved
-
-- **New screenshots** — All screenshots refreshed to show AI badges on session cards, the insight panel with generated summaries, prompt refinement with flavor selection, and the expanded 7+ terminal resume menu
-- **8 supported terminals** — Terminal table now shows tab support for iTerm2, WezTerm, and Kitty
-
-## [0.4.5] - 2026-03-02
+## [0.5.0] - 2026-03-02
 
 ### Added
 
-- **Refresh button** — Manual full re-index button in the toolbar with spinning animation
-- **Periodic reindex** — Full re-index every 30 seconds while the window is focused, keeping metrics and costs fresh without constant file watching
+- **Refresh button** — One-click re-index from the toolbar, plus automatic background refresh every 30 seconds
+- **8 supported terminals** — Resume sessions in VS Code, iTerm2, WezTerm, Kitty, Ghostty, Terminal.app, Alacritty, or Warp
+
+### Improved
+
+- **Fresh Marketplace listing** — All-new screenshots showcasing AI Insights, Prompt Refinement, the full terminal menu, and cost tracking
+- **Smoother hero GIF** — High-quality animation with better color reproduction
 
 ## [0.4.4] - 2026-03-02
 
