@@ -8,9 +8,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
 ### Improved
 
-- **Marketing refresh** — Full README rewrite with new features: AI Session Insights, Prompt Refinement, updated terminal table (8 terminals with tab support), and new "Also included" items
-- **Screenshot capture script** — Updated mock data with AI badges (`insightTypes`), insight panel with Summary checkmark, RefinePanel with selected flavors, 7+ terminals in resume menu, 4-frame GIF sequence
-- **Screenshot harness** — Exposed `insightStatuses`, `insightResults`, `availableTerminals`, `refreshing`, and refinement stores for screenshot automation
+- **Updated documentation** — README now showcases all major features: AI Session Insights, Prompt Refinement with 6 flavors, 8 terminal support with tab resume, and the full feature set
+- **New screenshots** — All marketing screenshots updated to show AI badges on session cards, insight panel with generated summaries, prompt refinement modal, and the expanded 7+ terminal resume menu
+- **Terminal table** — Now shows 8 supported terminals including tab support for iTerm2, WezTerm, and Kitty
 
 ## [0.4.5] - 2026-03-02
 
