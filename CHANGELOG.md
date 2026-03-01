@@ -4,6 +4,15 @@ All notable changes to Claude Cockpit will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.4.1] - 2026-03-02
+
+### Fixed
+
+- **Pinned filter behavior** — Toggling Pinned pill OFF now hides pinned sessions from the list. Previously pinned sessions always appeared regardless of filters
+- **Memory: streaming indexer** — `parseSessionMeta` now streams JSONL files line-by-line instead of loading entire files into memory (fixes rising memory on large session files)
+- **Memory: watcher debounce** — File watcher debounces at 2 seconds to prevent rapid re-indexing during active Claude sessions
+- **Memory: status bar** — Status bar uses `count()` + targeted cost query instead of loading all session objects
+
 ## [0.4.0] - 2026-03-02
 
 ### Added
