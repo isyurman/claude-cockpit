@@ -4,13 +4,14 @@ All notable changes to Claude Cockpit will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
-## [0.4.6] - 2026-03-02
+## [0.4.7] - 2026-03-02
 
 ### Improved
 
 - **Updated documentation** — README now showcases all major features: AI Session Insights, Prompt Refinement with 6 flavors, 8 terminal support with tab resume, and the full feature set
 - **New screenshots** — All marketing screenshots updated to show AI badges on session cards, insight panel with generated summaries, prompt refinement modal, and the expanded 7+ terminal resume menu
 - **Terminal table** — Now shows 8 supported terminals including tab support for iTerm2, WezTerm, and Kitty
+- **Better GIF quality** — Hero demo GIF now assembled with ffmpeg using lanczos scaling and floyd-steinberg dithering
 
 ## [0.4.5] - 2026-03-02
 
