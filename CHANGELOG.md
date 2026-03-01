@@ -4,6 +4,13 @@ All notable changes to Claude Cockpit will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.4.5] - 2026-03-02
+
+### Added
+
+- **Refresh button** — Manual full re-index button in the toolbar with spinning animation
+- **Periodic reindex** — Full re-index every 30 seconds while the window is focused, keeping metrics and costs fresh without constant file watching
+
 ## [0.4.4] - 2026-03-02
 
 ### Improved
