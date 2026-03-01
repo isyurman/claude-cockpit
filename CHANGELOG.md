@@ -4,6 +4,14 @@ All notable changes to Claude Cockpit will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.4.6] - 2026-03-02
+
+### Improved
+
+- **Marketing refresh** — Full README rewrite with new features: AI Session Insights, Prompt Refinement, updated terminal table (8 terminals with tab support), and new "Also included" items
+- **Screenshot capture script** — Updated mock data with AI badges (`insightTypes`), insight panel with Summary checkmark, RefinePanel with selected flavors, 7+ terminals in resume menu, 4-frame GIF sequence
+- **Screenshot harness** — Exposed `insightStatuses`, `insightResults`, `availableTerminals`, `refreshing`, and refinement stores for screenshot automation
+
 ## [0.4.5] - 2026-03-02
 
 ### Added
