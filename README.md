@@ -6,6 +6,8 @@
 
 **Claude Cockpit** is a VS Code sidebar that turns your scattered Claude Code history into a searchable, taggable, resumable dashboard — so you never lose track of what Claude built for you.
 
+![Claude Cockpit in action — sessions, preview, metrics](media/screenshots/hero-demo.gif)
+
 ![Session dashboard with search, filters, and date grouping](media/screenshots/01-hero-sessions.png)
 
 ## Features
