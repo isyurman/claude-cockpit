@@ -4,6 +4,13 @@ All notable changes to Claude Cockpit will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.4.3] - 2026-03-02
+
+### Fixed
+
+- **Per-file cooldown** — Active sessions (e.g. 93MB JSONL being written to) are re-parsed at most once per 30 seconds instead of every 2-5 seconds
+- **Focus-based watcher** — Only the focused VS Code window watches for file changes; background windows stop polling and do a single catch-up reindex when refocused
+
 ## [0.4.2] - 2026-03-02
 
 ### Fixed
