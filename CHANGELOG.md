@@ -4,6 +4,22 @@ All notable changes to Claude Cockpit will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.3.0] - 2026-03-01
+
+### Added
+
+- **AI Session Insights** — Generate Summary, Megaprompt, and Insights for any session using Claude CLI headless mode, with SQLite caching and staleness detection
+- **Model selector** — Choose Opus, Sonnet, or Haiku for insights and refinement generation
+- **Prompt Refinement** — Refine any prompt with 6 flavors: Token Efficient, Speed Optimized, Quality Maximized, Structured, Expert Persona, All Combined. Supports multi-flavor selection, recursive refinement, custom instructions, and save-as-prompt
+- **Terminal tab support** — Resume sessions in new tabs (instead of windows) for iTerm2, WezTerm, and Kitty
+- **New terminals** — Added Ghostty and Windows Terminal support, plus Command Prompt on Windows
+- **Eval system** — Rigorous prompt evaluation pipeline: 600 refinements across 30 prompt versions, LLM-as-judge scoring, HTML report with dark/light themes
+
+### Improved
+
+- **Refinement prompts** — All 6 flavor prompts updated with winning strategies from eval (CoT, Meta-prompt, Rubric, Few-shot patterns scored 4.0-4.6 avg by LLM judge)
+- **Cross-platform terminals** — Binary detection helpers for macOS, Linux, and Windows
+
 ## [0.2.5] - 2026-03-01
 
 ### Improved
