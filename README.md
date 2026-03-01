@@ -6,9 +6,9 @@
 
 **Claude Cockpit** is a VS Code sidebar that turns your scattered Claude Code history into a searchable, taggable, resumable dashboard — so you never lose track of what Claude built for you.
 
-![Claude Cockpit in action — sessions, preview, metrics](media/screenshots/hero-demo.gif)
+<img src="media/screenshots/hero-demo.gif" width="600" alt="Claude Cockpit in action — sessions, preview, metrics">
 
-![Session dashboard with search, filters, and date grouping](media/screenshots/01-hero-sessions.png)
+<img src="media/screenshots/01-hero-sessions.png" width="800" alt="Session dashboard with search, filters, and date grouping">
 
 ## Features
 
@@ -25,7 +25,7 @@ Spotted the session you need? Resume it without leaving VS Code, or launch it di
 Claude Cockpit supports six terminals out of the box, each with both standard resume and auto-approve modes.
 No more copying session IDs and typing `claude --resume` by hand.
 
-![Context menu showing resume options across 6 terminals](media/screenshots/02-resume-terminals.png)
+<img src="media/screenshots/02-resume-terminals.png" width="800" alt="Context menu showing resume options across 6 terminals">
 
 | Terminal         | Resume | Auto-approve |
 |------------------|:------:|:------------:|
@@ -43,9 +43,9 @@ Every API call is priced using Anthropic's official rates — including cache to
 Click any session's cost to see the full formula: tokens × rate = cost, broken down by input, output, cache write, and cache read.
 The metrics dashboard tracks spending by model with rates shown inline, so you can verify every dollar.
 
-![Metrics dashboard with per-model cost breakdown and inline rates](media/screenshots/03-metrics-dashboard.png)
+<img src="media/screenshots/03-metrics-dashboard.png" width="800" alt="Metrics dashboard with per-model cost breakdown and inline rates">
 
-![Session cost formula showing tokens × rate = cost](media/screenshots/04-session-preview.png)
+<img src="media/screenshots/04-session-preview.png" width="800" alt="Session cost formula showing tokens × rate = cost">
 
 ### Prompt Library
 
@@ -53,14 +53,14 @@ Stop re-typing the same instructions every time you start a new session.
 Save prompt templates, organize them, and launch new Claude Code sessions with a single click.
 Build a library of your best-performing prompts so you can reuse what works.
 
-![Prompt template library with saved prompts](media/screenshots/05-prompts-library.png)
+<img src="media/screenshots/05-prompts-library.png" width="800" alt="Prompt template library with saved prompts">
 
 ### Timeline View
 
 See when you actually use Claude Code.
 The timeline plots your session activity over days and weeks so you can spot patterns in your AI-assisted workflow.
 
-![Timeline view showing session activity distribution](media/screenshots/06-timeline-view.png)
+<img src="media/screenshots/06-timeline-view.png" width="800" alt="Timeline view showing session activity distribution">
 
 ### Also included
 
