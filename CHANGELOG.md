@@ -4,6 +4,18 @@ All notable changes to Claude Cockpit will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.3.1] - 2026-03-01
+
+### Added
+
+- **AI insight indicators** — Purple "AI" badge on session cards shows which sessions have cached insights (summary, megaprompt, insights)
+- **Has AI filter** — Filter pill to show only sessions with AI analysis
+
+### Fixed
+
+- **WezTerm resume** — Opens tab in running instance (`cli spawn`) instead of new window, with fallback
+- **Cost breakdown overflow** — Formula table scrolls horizontally in narrow sidebar instead of clipping
+
 ## [0.3.0] - 2026-03-01
 
 ### Added
