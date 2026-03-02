@@ -4,6 +4,26 @@ All notable changes to Claude Cockpit will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.5.7] - 2026-03-02
+
+### Improved
+
+- **Current branch filter** — Now matches both branch name and project, so "main" in one project won't match "main" in another. Filter chip renamed to "Current branch" for clarity
+- **Branch badges** — Session cards now show a git branch icon next to the branch name, making it easy to distinguish branches from tags
+- **Session notes** — Save notes with `Cmd+Enter` instead of auto-save, so you can safely edit without losing data. Hint text appears when unsaved changes exist
+- **Card hover** — Current-branch cards now properly highlight on hover
+
+### Fixed
+
+- **Current branch chip missing on reload** — The branch filter chip now reliably appears after VS Code restarts
+- **Date filter tests** — Fixed test coverage for date range filtering
+
+## [0.5.6] - 2026-03-02
+
+### Fixed
+
+- **Pinned toggle behavior** — The Pinned pill now controls display grouping: when on, pinned sessions get their own group at the top with all other sessions still visible below; when off, pinned sessions are mixed into regular date groups
+
 ## [0.5.5] - 2026-03-02
 
 ### Fixed
