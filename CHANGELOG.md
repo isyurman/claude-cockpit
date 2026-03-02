@@ -4,6 +4,12 @@ All notable changes to Claude Cockpit will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.5.5] - 2026-03-02
+
+### Fixed
+
+- **Metrics date range** — Range picker now shows date inputs in the Metrics view (regression from 0.5.4)
+
 ## [0.5.4] - 2026-03-02
 
 ### Fixed
