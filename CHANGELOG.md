@@ -4,6 +4,13 @@ All notable changes to Claude Cockpit will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.5.4] - 2026-03-02
+
+### Fixed
+
+- **Range filter layout** — Date range inputs now appear on their own row instead of pushing Pinned and Non-empty pills out of place
+- **Pinned filter** — Toggling the Pinned pill now works correctly: when off, pinned sessions are mixed into their regular date groups instead of always appearing in a separate section at the top
+
 ## [0.5.3] - 2026-03-02
 
 ### Improved
