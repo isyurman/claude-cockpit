@@ -4,6 +4,13 @@ All notable changes to Claude Cockpit will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.5.8] - 2026-03-02
+
+### Added
+
+- **Elapsed timer for AI operations** — Insight generation and prompt refinement now show a live elapsed timer (e.g. "Generating summary... 1m 23s") so you can tell the operation is still running
+- **Cancel button for AI operations** — Cancel long-running insight or refinement operations at any time instead of waiting for the 5-minute timeout
+
 ## [0.5.7] - 2026-03-02
 
 ### Improved
