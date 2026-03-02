@@ -4,6 +4,12 @@ All notable changes to Claude Cockpit will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.5.1] - 2026-03-02
+
+### Improved
+
+- **Marketplace distribution** — Now auto-updates from the VS Code Marketplace
+
 ## [0.5.0] - 2026-03-02
 
 ### Added
