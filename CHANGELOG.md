@@ -4,6 +4,27 @@ All notable changes to Claude Cockpit will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.5.3] - 2026-03-02
+
+### Improved
+
+- **README layout** — Each screenshot now appears below its feature description instead of stacking at the top
+
+## [0.5.2] - 2026-03-02
+
+### Fixed
+
+- **Open Dashboard command** — `Cmd+Shift+K` now correctly opens the sidebar (was silently failing)
+- **Prompt delete confirmation** — Deleting a prompt now requires two clicks to prevent accidental removal
+
+### Changed
+
+- **Removed Search Sessions command** — Redundant with the dashboard's built-in search bar
+
+### Improved
+
+- **README spacing** — Better visual separation between hero GIF and screenshot
+
 ## [0.5.1] - 2026-03-02
 
 ### Improved

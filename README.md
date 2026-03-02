@@ -8,8 +8,6 @@
 
 <img src="media/screenshots/hero-demo.gif" width="600" alt="Claude Cockpit in action — sessions, insights, metrics, prompt refinement">
 
-<img src="media/screenshots/01-hero-sessions.png" width="800" alt="Session dashboard with AI badges, search, filters, and date grouping">
-
 ## Features
 
 ### Session Dashboard
@@ -19,6 +17,8 @@ Multi-word fuzzy search highlights matches across session names, messages, branc
 Filter by project, git branch, date range, cost, or AI insights status, and sort by date, cost, or message count.
 Sessions are automatically discovered from `~/.claude/projects/` and indexed in the background.
 Hit the refresh button to manually re-index at any time.
+
+<img src="media/screenshots/01-hero-sessions.png" width="800" alt="Session dashboard with AI badges, search, filters, and date grouping">
 
 ### AI Session Insights
 
