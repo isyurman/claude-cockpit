@@ -4,6 +4,13 @@ All notable changes to Claude Cockpit will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.5.9] - 2026-03-02
+
+### Improved
+
+- **Smarter session cards** — Sessions that started with interrupted requests or continuation messages now show the actual first meaningful prompt instead of unhelpful text
+- **Preview shows latest messages** — Session preview now always includes the most recent messages, so you see what actually happened at the end of long sessions
+
 ## [0.5.8] - 2026-03-02
 
 ### Added
